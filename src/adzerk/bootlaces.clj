@@ -87,6 +87,6 @@
    (push
     :file           file
     :tag            (boolean +last-commit+)
-    :gpg-sign       true
+    :gpg-sign       false
     :ensure-release true
     :repo           "deploy-clojars")))
